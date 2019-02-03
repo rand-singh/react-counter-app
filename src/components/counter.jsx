@@ -9,7 +9,7 @@ class Counter extends Component {
   constructor() {
     super();
     console.log("constructor", this);
-    this.handleIncrement = this.handleIncrement.bind(this); // padding the Counter object back into handleIncrement method
+    this.handleIncrement = this.handleIncrement.bind(this); // adding the Counter object back into handleIncrement method
   }
 
   handleIncrement() {
